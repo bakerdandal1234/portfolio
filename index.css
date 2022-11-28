@@ -6,8 +6,6 @@
     box-sizing:border-box;
     scroll-behavior:smooth;
 }
-@media screen (max-width:767px){
-}
 header{
     display:flex;
     justify-content: space-between;
