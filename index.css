@@ -5,8 +5,7 @@
     font-family: 'poppins',light 300;
     box-sizing:border-box;
     scroll-behavior:smooth;
-}
-header{
+}header{
     display:flex;
     justify-content: space-between;
     align-items: center;
