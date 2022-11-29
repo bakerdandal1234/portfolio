@@ -107,14 +107,12 @@ section{
 }
 .card{
     background-color:#fff;
-    width:10em;
+    width:15em;
     border-radius:10px;
     padding:25px;
     margin: 10px;
     transition: 0.7s ease;
     box-shadow:0 5px 25px rgba(1 1 1/20%);
-    float: left;
-    margin-left:100%;
 }
 .card:hover{
     transform:scale(1.1);
@@ -155,8 +153,6 @@ info{
     border-radius:10;
     margin: 20px;
     transition: 0.7s ease;
-    float: left;
-    margin-left:50%;
 }
 .project-card:hover{
 transform: scale(1.1);
@@ -193,13 +189,4 @@ color:blue;
     display: flex;
     justify-content: space-between;
     background-color:#00ff00;
-}
-@media (min-width:200px) and (max-width:1200){
-    .card{
-float:left;
-width:32%;
-margin-left: 0;
-margin-bottom: 20px;
-box-sizing: border-box;
-    }
 }
