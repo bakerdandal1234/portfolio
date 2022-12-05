@@ -27,17 +27,29 @@ header {
     font-weight: 500;
     margin-right: 30px;
     text-transform: uppercase;
+    animation:change-color 3s linear infinite alternate;
 }
-
+@keyframes change-color{
+    0%{
+        background-color:black;
+    }25%{
+        background-color:#223344;
+    }50%{
+        background-color: blue;
+    }75%{
+        background-color:rgb(226, 43, 58);
+    }100%{
+        background-color: aqua;}}
 .logo {
     text-transform: uppercase;
     text-decoration: none;
     color: blue;
-    font-weight: 700;
-    font-size: 1.8em;
+   font-weight: 700;
+    font-size:1.8em;
     margin-left: 30px;
+    animation:change-color 3s linear infinite alternate;
+   
 }
-
 .navigation a:hover {
     color: #ff0000;
 }
@@ -109,10 +121,13 @@ header {
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
+   /* animation:change-color 3s linear infinite alternate;*/
 }
 
 .title:hover {
     color: #0000ff;
+    animation:change-color 3s linear infinite alternate;
+    
 }
 
 .content {
@@ -177,14 +192,12 @@ header {
 .project-card {
     background-color: #fff;
     border: 1px solid #fff;
-
-    width: 25%;
+    width:25%;
     overflow: hidden;
     border-radius: 10;
     margin: 20px;
     transition: 0.7s ease;
 }
-
 .project-card:hover {
     transform: scale(1.1);
 }
@@ -278,7 +291,7 @@ header {
         font-size: 16px;
     }
 
-    .logo {
+    .logo  {
         font-size: 25px;
         margin-left: 25px;
     }
