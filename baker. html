@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baker dandal</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="A">
+<div data-role="header">
+<h1>home page</h1>
+</div>
+<div data-role="content">
+<h1>welcome in our world</h1>
+<center><img src="img5.jpeg" width="450" height="450"></center>
+</div>
+<div data-role="footer" data-position="fixed">
+<div data-role="navbar">
+<ul>
+    <li><a href="#B">login</a></li>
+    <li><a href="#C">sign in</a> </li>
+    <li><a href="#D">accessories</a> </li>
+</ul>
+</div>
+</div>
+    </div>
+    <div data-role="page" id="B">
+<div data-role="header">
+<h1>login up</h1>
+<a href="#" data-role="back" data-rel="back" data-icon="back">back</a>
+</div>
+><div data-role="content">
+<label for="user">username</label>
+<input type="user" id="user" name="user">
+<label for="pass">password</label>
+<input type="pass" id="pass" name="pass">
+<a href="#" data-role="button">send</a>
+</div>
+    </div>
+    <div data-role="page" id="C">
+<div data-role="header">
+<h1>sign in</h1>
+<a href="#" data-role="back" data-rel="back" data-icon="back">back</a>
+</div>
+<div data-role="content">
+<label for="fn">first name</label>
+<input type="text" id="fn" name="fn"><br>
+<label for="ln">last name</label>
+<input type="text" id="ln" name="ln"><br>
+<label for="date">birth date</label>
+<input type="date" id="date" name="date"><br>
+<label for="email">email</label>
+<input type="email" id="email" name="email"><br>
+</div>
+    </div>
+    <div data-role="page" id="D">
+<div data-role="header">
+<h1>accessories</h1>
+<a href="#" data-role="back" data-rel="back" data-icon="back">back</a>
+</div>
+<div data-role="content">
+<ul data-role="listview">
+     <li><img src="img1.jpeg">wireless </li>
+     <li><img src="img2.jpeg">silicone ring</li>
+     <li><img src="img3.jpeg">silicone strap </li>
+     <li><img src="img4.jpeg">galaxy watch4</li>
+</ul>
+</div>
+    </div>
+</body>
+</html>
